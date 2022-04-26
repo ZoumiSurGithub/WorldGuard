@@ -6,6 +6,8 @@
 [![](https://poggit.pmmp.io/shield.dl/WorldGuard)](https://poggit.pmmp.io/p/WorldGuard)
 
 
+Updated in pm4 by Zoumi#9899.
+
 IMPORTANT NOTE: This plugin has nothing to do with the original 'WorldGuard' plugin for 'Bukkit' which is available [here](https://dev.bukkit.org/projects/worldguard). This plugin was built from scratch by an entirely different team than the one behind WorldGuard for Bukkit and is not affiliated to them in any way.
 
 
