@@ -1,0 +1,76 @@
+name: WorldGuard
+main: MihaiChirculete\WorldGuard\WorldGuard
+api: [4.0.0]
+version: 1.2
+author: MihaiChirculete
+website: https://github.com/MihaiChirculete/WorldGuard
+commands:
+  worldguard:
+    description: Opens up the User Interface of WorldGuard.
+    aliases: ["wg"]
+    permission: "worldguard.ui"
+  region:
+    description: Create/Manage/Delete regions.
+    aliases: ["rg"]
+    permission: "worldguard.create"
+softdepend: ["RedstoneCircuit"]
+
+permissions:
+  worldguard.ui:
+    default: op
+  worldguard.create:
+    default: op
+  worldguard.modify:
+    default: op
+  worldguard.delete:
+    default: op
+  worldguard.enter:
+    default: op
+  worldguard.leave:
+    default: op
+  worldguard.place:
+    default: op
+  worldguard.block-place:
+    default: op
+  worldguard.break:
+    default: op
+  worldguard.block-break:
+    default: op
+  worldguard.edit:
+    default: op
+  worldguard.eat:
+    default: op
+  worldguard.drop:
+    default: op
+  worldguard.deathdrop:
+    default: op
+  worldguard.usechest:
+    default: op
+  worldguard.usechestender:
+    default: op
+  worldguard.usetrappedchest:
+    default: op
+  worldguard.enchantingtable:
+    default: op
+  worldguard.usedoors:
+    default: op
+  worldguard.usegates:
+    default: op
+  worldguard.usetrapdoors:
+    default: op
+  worldguard.usefurnaces:
+    default: op
+  worldguard.useanvil:
+    default: op
+  worldguard.usecauldron:
+    default: op
+  worldguard.usebrewingstand:
+    default: op
+  worldguard.usebeacons:
+    default: op
+  worldguard.usepressureplate:
+    default: op
+  worldguard.useusebutton:
+    default: op
+  worldguard.bypass.gamemode:
+    default: op
